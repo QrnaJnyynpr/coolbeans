@@ -1,0 +1,85 @@
+body {
+	background: url("images/19.jpeg") no-repeat center fixed;
+	background-size: cover;
+}
+
+.green {
+	background-color: #0d191d;
+}
+
+.brown {
+	background-color: rgba(31,43,47, 0.9);
+}
+
+.name {
+	font-size: 4vw;
+	color: white;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 15px;
+}
+
+.bannerimg {
+	background: url("images/4.jpeg") no-repeat 65% 35% fixed;
+	height: 500px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-size: cover;
+}
+
+#bannertext {
+	color: white;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 32px;
+	padding-right: 26px;
+	padding-left: 6px;
+	padding-top: 12px;
+}
+
+.jumbotron {
+	padding: 28px;
+}
+
+#jtext {
+	color: white;
+}
+
+/* CSS FOR ROTATING SOCIAL MEDIA BUTTONS */
+
+.social-icons .fa {
+	font-size: 1.8em;
+}
+
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.social-icons.icon-circle .fa { 
+	border-radius: 50%;
+}
+
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+
+.social-icons .fa-facebook, .social-icons .fa-instagram  {
+	background-color:#19587E;
+}	
+
+.social-icons .fa-twitter {
+	background-color:#32CCFE;
+}
